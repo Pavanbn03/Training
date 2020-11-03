@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#radius{
+    border: 5px 3px 5px 3px dotted red;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid orange;
+    width: 400px;
+    text-align: center;
+    border-right: 2px solid orange;
+    box-shadow: -3px -3px 10px orange;
+}
+img{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideImage</title>
+    <style>
+        body{
+            margin: 0px;
+            padding:200px
+        }
+        .container{
+            width: 150px;
+            height: 190px;
+            overflow: hidden;
+           
+        }
+        .container img{
+            transition: transform 0.5s;
+        }
+        .container img:hover {
+            transform: translate3d(0,-190px,0);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./photo/smiley.JPG" alt="">
+    </div>
+    
+</body>
+</html>

@@ -99,7 +99,9 @@ function initi(){
 
 function animate(){
     requestAnimationFrame(animate);
-     c.clearRect(0,0,width,height);
+    c.fillStyle="rgba(255,255,255,0.05)";//this 2 lines add trace effects
+    c.fillRect(0, 0, width, height);
+    //  c.clearRect(0,0,width,height); removes trace effect
     for(let i=0;i<circleArray.length;i++){
         circleArray[i].update();
     }

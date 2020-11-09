@@ -12,7 +12,7 @@ var c =canvas.getContext("2d");
 // c. textBaseline = 'middle';
 // c.fillStyle = 'red'; 
 // c.fillText('Hello World!', width/2, height/2); 
-items=["#2C3E50","#E74C3C","#ECF0F1","#3498DB","#2980B9"]
+items=["#6C63FF","#444053","#30374e","#d2d4de"]
 minRadius=2;
 maxRadius=40;
 distance=50;

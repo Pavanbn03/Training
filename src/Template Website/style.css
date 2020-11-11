@@ -75,7 +75,7 @@ a{
 /* project grid */
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     gap:10px
 }
 .box >img{
@@ -97,21 +97,33 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+.bg{
+    display: none;
+}
 
 @media only screen and (max-width:700px){
 
     .main-nav{
         display: flex;
         flex-direction: column;
+       
+        
     }
     .main-nav.open .menu-items{
         display: none;
-
-       
     }
     .animi{
         display: none;
-        
+    }
+    .bg{
+        display:flex;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .body{
+        background:url("./img/undraw.png") ;
     }
     .box{
         height: 30vh;
@@ -136,8 +148,6 @@ footer{
         margin: 5px;
 
     }
-    .container{
-        background:url("./img/undraw.png") no-repeat center center fixed;
-    }
+  
     
 }

@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container>div{
+   
+    border: 1px solid black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 0.2fr 1.5fr 1.5fr 1fr;
+    grid-template-areas: 
+    "navbar navbar navbar navbar"
+    "sidebar content1 content1 content1"
+    "sidebar  content1 content1 content1"
+    "foot foot foot foot";
+    gap:0.5em;
+    
+    
+}
+.navbar{
+    grid-area: navbar;
+}
+.sidebar{
+    grid-area: sidebar;
+    height: 100vh;
+}
+.item{
+    border: 1px solid orange;
+}
+.content1{
+    grid-area: content1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap:0.2em;
+    height: 100vh;
+    width: 100%;
+}
+.foot{
+    grid-area: foot;
+    height: 10vh;
+}

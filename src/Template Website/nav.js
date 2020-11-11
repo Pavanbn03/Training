@@ -3,5 +3,6 @@ const nav = document.querySelector(".main-nav")
 
 ham.addEventListener("click",()=>{
     nav.classList.toggle("open");
+    console.log("click");
     
 });

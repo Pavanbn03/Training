@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <a href="#home" class="logo">Logo</a>
+      <div class="toggle" onclick="toggle()"></div>
+      <ul>
+        <li><a href="#home" class="active" onclick="toggle()">Home</a></li>
+        <li><a href="#Products" onclick="toggle()">Products</a></li>
+        <li><a href="#team" onclick="toggle()">Our Team</a></li>
+        <li><a href="#about" onclick="toggle()">About US</a></li>
+        <li><a href="#contact" onclick="toggle()">Contact Us</a></li>
+      </ul>
+    </header>
+    <section id="home" data-aos="fade-right">
+      <div>
+        <h2>Responsive Website from Scratch</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni
+          labore ullam cumque veritatis laudantium voluptatibus, aspernatur
+          omnis vel laborum quidem corporis placeat? Ratione ex praesentium
+          magnam dignissimos facere iste.Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Nihil magni labore ullam cumque veritatis laudantium
+          voluptatibus, aspernatur omnis vel laborum quidem corporis placeat?
+          Ratione ex praesentium magnam dignissimos facere iste.
+        </p>
+        <a href="" data-aos="fade-right">Read More</a>
+      </div>
+      <img src="../project_files/photo/3.jpeg" alt="" />
+    </section>
+    <section id="Products" data-aos="fade-right">
+      <div>
+        <h2>Our Products</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni
+          labore ullam cumque veritatis laudantium voluptatibus, aspernatur
+          omnis vel laborum quidem corporis placeat? Ratione ex praesentium
+          magnam dignissimos facere iste.Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Nihil magni labore ullam cumque veritatis laudantium
+          voluptatibus, aspernatur omnis vel laborum quidem corporis placeat?
+          Ratione ex praesentium magnam dignissimos facere iste.
+        </p>
+      </div>
+    </section>
+    <section id="team" data-aos="fade-right">
+      <div>
+        <h2>Our Team</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni
+          labore ullam cumque veritatis laudantium voluptatibus, aspernatur
+          omnis vel laborum quidem corporis placeat? Ratione ex praesentium
+          magnam dignissimos facere iste.Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Nihil magni labore ullam cumque veritatis laudantium
+          voluptatibus, aspernatur omnis vel laborum quidem corporis placeat?
+          Ratione ex praesentium magnam dignissimos facere iste.
+        </p>
+      </div>
+    </section>
+    <section id="about" data-aos="fade-right">
+      <div>
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni
+          labore ullam cumque veritatis laudantium voluptatibus, aspernatur
+          omnis vel laborum quidem corporis placeat? Ratione ex praesentium
+          magnam dignissimos facere iste.Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Nihil magni labore ullam cumque veritatis laudantium
+          voluptatibus, aspernatur omnis vel laborum quidem corporis placeat?
+          Ratione ex praesentium magnam dignissimos facere iste.
+        </p>
+      </div>
+    </section>
+    <section id="contact" data-aos="fade-right">
+      <div>
+        <h2>Contact Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni
+          labore ullam cumque veritatis laudantium voluptatibus, aspernatur
+          omnis vel laborum quidem corporis placeat? Ratione ex praesentium
+          magnam dignissimos facere iste.Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Nihil magni labore ullam cumque veritatis laudantium
+          voluptatibus, aspernatur omnis vel laborum quidem corporis placeat?
+          Ratione ex praesentium magnam dignissimos facere iste.
+        </p>
+      </div>
+    </section>
+    <script>
+      function toggle() {
+        let header = document.querySelector("#header");
+        header.classList.toggle("active");
+      }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 200,
+      });
+    </script>
+  </body>
+</html>

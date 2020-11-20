@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  
+    background-color: coral;
+}
+.container {
+    display: flex;
+   
+    width: 100vw;
+    height: 500px;
+    justify-content: center;
+    margin: 100px 0;
+    
+    
+}
+.box{
+    min-width: 250px;
+    margin-left: 40px; 
+    background-color:rgba(0,0,0,0.1);
+}
+.box p{
+    padding: 10px 15px;
+    background-color: rgb(127, 140, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.box p:nth-child(1){
+    margin-top: 0px;
+}

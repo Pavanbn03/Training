@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Parallax.js | Simple Example</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <link rel="stylesheet" href="parallax.css">
+</head>
+<body>
+	<div id="container" class="container">
+
+		<div id="scene" class="scene">
+			<div data-depth="1.00"><img src="diya1.png"></div>
+			<div data-depth="0.80"><img src="diya2.png"></div>
+
+			<div data-depth="0.60"><img src="diya3.png"></div>
+			<div data-depth="0.40" class="left"><img src="text1.png"></div>
+			<div data-depth="0.00"><img src="light.png"></div>
+		</div>
+	</div>
+
+
+	<script src="./parallax.js"></script>
+	<script>
+
+	
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+</body>
+</html>

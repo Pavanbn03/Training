@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yummy.eats</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="overlay" id="overlay">
+      <h3>Searching now....</h3>
+    </div>
+    <div class="hero-bg">
+      <section class="top">
+        <header><a href="#">yummy.eats</a></header>
+        <h1><span>The Healthy</span> Eating Experience.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In cumque
+          praesentium officiis quidem at quae minus qui est dicta! Aperiam!
+        </p>
+        <div class="form-container">
+          <form action=" ">
+            <div class="form-left">
+              <label for="city">Enter your city</label>
+              <input type="text" name="city" id="city" />
+              <p>Example: "Bengaluru"</p>
+            </div>
+            <input type="button" id="btn" value="Find Food Now" />
+          </form>
+        </div>
+      </section>
+    </div>
+    <section class="authentic">
+      <div class="right-col" data-aos="fade-right">
+        <h2>Authentic. Awesome.</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore qui
+          quasi dolor omnis neque quisquam facere totam magnam nesciunt
+          deleniti!. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Tempore qui quasi dolor omnis neque.
+        </p>
+        <br /><br />
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore qui
+          quasi dolor omnis neque quisquam facere totam magnam nesciunt
+          deleniti!. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Tempore qui quasi dolor omnis neque.
+        </p>
+      </div>
+    
+           <img src="images/food.jpg" alt="Momo image" data-aos="fade-left" />
+    
+     
+    </section>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset:200,
+          duration:1000
+      });
+    </script>
+  </body>
+</html>

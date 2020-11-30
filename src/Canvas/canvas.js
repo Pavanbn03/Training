@@ -84,7 +84,7 @@ var circleArray=[];
 function initi(){
 
     circleArray=[];
-    for(let i=0;i<10;i++){
+    for(let i=0;i<200;i++){
         var r=Math.random()*3+1;
         var x=Math.random()*(width-r*2)+r*2;
         var y=Math.random()*(height-r*2)+r*2;

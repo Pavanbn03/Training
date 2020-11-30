@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Website to book tours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "complie:sass": "node-sass scss/main.scss css/style.comp.css",
+    "concat:css": "concat -o css/style.concat.css icon-font.css css/style.comp.css",
+    "compress:css": "node-sass css/style.concat.css css/style.css --output-style compressed"
+  },
+  "author": "Pavan",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "postcss-scss": "^3.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "concat": "^1.0.3",
+    "postcss": "^8.1.0",
+    "postcss-cli": "^8.3.0"
+  }
+}
